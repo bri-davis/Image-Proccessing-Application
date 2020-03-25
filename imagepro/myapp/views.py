@@ -2,7 +2,6 @@ from django.shortcuts import render_to_response
 from django.template import RequestContext
 from myapp.forms import UploadFileForm
 from PIL import Image, ImageOps,ImageFilter
-#from s3upload import upload_to_s3_bucket_root
 import boto3
 import os
 from .models import ImageFile
